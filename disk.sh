@@ -22,7 +22,7 @@ echo ""
 if [[ $EUID -gt 0 ]]
 then echo "Please run as root"
     exit
-elif [[$EUID -lt 0 ]]
+elif [[ $EUID -lt 0 ]]
 then echo "Problem encountered : $?"
     exit
 fi
