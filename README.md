@@ -21,7 +21,7 @@ While going through the instructions stated above make sure to name the password
 After installing wdpassport-utils, and creating a file of 40 bytes containing the password[^1], you can safely run the script.
 
 # *WARNING : *
-**The wdpassport-utils folder MUST be in whichever directory your bash thinks as '~'.**
+**The wdpassport-utils folder MUST be in whichever directory your bash thinks as '~' when running as root.**
 *If* you have downloaded it to another folder the script will return an error.
 
 
