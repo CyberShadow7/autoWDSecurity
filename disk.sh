@@ -19,8 +19,11 @@ echo "Requires wdpassport-utils [https://github.com/KenMacD/wdpassport-utils] to
 echo ""
 echo ""
 
-if [[ $EUID > 0 ]]
+if [[ $EUID -gt 0 ]]
 then echo "Please run as root"
+    exit
+elif [[$EUID -lt 0 ]]
+then echo "Problem encountered : $?"
     exit
 fi
 
