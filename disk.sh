@@ -15,7 +15,7 @@
 
 echo "Disk Decryption automation tool."
 echo ""
-echo "Requires wdpassport-utils [https://github.com/KenMacD/wdpassport-utils] to work. \nIt also requires wdpassport-utils to be in the directory '/home/parrot/'"
+echo "Requires wdpassport-utils [https://github.com/KenMacD/wdpassport-utils] to work. \nIt also requires wdpassport-utils to be in the directory '/home/(USERNAME)/'"
 echo ""
 echo ""
 
