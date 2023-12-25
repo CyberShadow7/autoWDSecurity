@@ -12,6 +12,8 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+[![Codacy Security Scan](https://github.com/CyberShadow7/autoWDSecurity/actions/workflows/codacy.yml/badge.svg)](https://github.com/CyberShadow7/autoWDSecurity/actions/workflows/codacy.yml)
+
 ## Requirements
 In order for the program to run flawlessly with any WD drive which can be [un]locked with WD-Security application for Windows / MacOS, you need to download and follow all the instructions in [KenMacD's wdpassport-utils] (https://github.com/KenMacD/wdpassport-utils) github page (and README).
 
